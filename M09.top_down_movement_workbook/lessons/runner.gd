@@ -33,5 +33,3 @@ func _physics_process(delta: float) -> void:
 	if direction_discrete.length() > 0:
 		_skin.flip_h = direction.x < 0.0
 	
-	
-	
