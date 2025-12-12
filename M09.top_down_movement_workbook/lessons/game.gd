@@ -25,6 +25,7 @@ func _ready() -> void:
 	_finish_line.confettis_finished.connect(
 		get_tree().reload_current_scene.call_deferred
 	)
+	
 	_count_down.start_counting()
 	_runner.set_physics_process(false)
 	_count_down.counting_finished.connect(
