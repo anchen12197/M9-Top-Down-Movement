@@ -21,7 +21,7 @@ position = Vector2(-456, 214)
 
 [node name="Bouncer" parent="." instance=ExtResource("3_8c4bg")]
 unique_name_in_owner = true
-position = Vector2(-223, -31)
+position = Vector2(-461, 542)
 
 [node name="FinishLine" parent="." instance=ExtResource("5_sepuf")]
 unique_name_in_owner = true
